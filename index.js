@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 inquirer
 .prompt([
@@ -11,7 +12,7 @@ inquirer
     {
         type: "input",
         message: "What is the description of your project",
-        name: "Description",
+        name: "description",
     },
     {
         type: "input",
@@ -32,11 +33,27 @@ inquirer
         type: "input",
         message: "What are the test instructions",
         name: "Test",
+    },
+    {
+        type: "input",
+        message: "Please enter your Github Username",
+        name: "GitHub"
+    },
+    {
+        type: "input",
+        message: "Please enter your Email",
+        name: "Email",
+    },
+    {
+        type: "list",
+        message: "Please choose a license",
+        name: "License",
+        choices: ['MIT License', 'Mozilla Public License 2.0', 'Apache License 2.0', 'No License' ],
     }
 ])
 .then((data) => {
-    const fileText = JSON.stringify(data)
-fs.writeFile('README.md', fileText, (err) => 
+    const fileText = generateMarkdown(data)
+fs.writeFile('dist/README.md', fileText, (err) => 
  err ? console.log(err) : console.log('Success!'))
 
 })
