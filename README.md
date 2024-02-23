@@ -1,8 +1,7 @@
-# no
-   ![Github license](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-blue.svg)
-
+# README Generator
+   ![Github license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
   ## Description
-  no
+ In the terminal the user is presented with a series of questions with information needed to create a professinol README file.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,24 +12,24 @@
   - [Questions](#questions)
 
   ## Installation
-  no
+  npm i
 
   ## Usage Information
-  no
+ Install the packages then run the code using the command npm start
 
   ## Contributing guidelines
-  no
+  fork the project and open a pull request
 
   ## License 
- This project is licensed under the Mozilla Public License 2.0.
+ This project is licensed under the MIT License.
 
   ## Test Instructions
-  no
+ npm test
 
   ## Questions
-  If you have any questions, you can email me at no 
+  If you have any questions, you can email me atBenbrechter3@gmail.com 
 
-  If you want to see more of my work you can visit my Github at [no](https://github.com/no)
+  If you want to see more of my work you can visit my Github at [no](https://github.com/Benbrechter)
 
 
 
