@@ -27,7 +27,7 @@
  npm test
 
   ## Questions
-  If you have any questions, you can email me atBenbrechter3@gmail.com 
+  If you have any questions, you can email me at Benbrechter3@gmail.com 
 
   If you want to see more of my work you can visit my Github at [no](https://github.com/Benbrechter)
 
